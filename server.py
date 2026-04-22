@@ -4,7 +4,6 @@ from datetime import datetime
 HOST = "127.0.0.1"
 PORT = 10001
 BUFFER_SIZE = 2048
-
 server = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 server.bind((HOST, PORT))
 
