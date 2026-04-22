@@ -10,7 +10,6 @@ sock.settimeout(TIMEOUT)
 
 conectat = False
 
-
 def trimite_la_server(text):
     try:
         sock.sendto(text.encode("utf-8"), (SERVER_IP, SERVER_PORT))
