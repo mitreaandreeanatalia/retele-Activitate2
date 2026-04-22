@@ -1,4 +1,5 @@
 @echo off
+
 cd /d "%~dp0"
 start "Server UDP" cmd /k "title Server UDP & python server.py"
 timeout /t 1 /nobreak >nul
